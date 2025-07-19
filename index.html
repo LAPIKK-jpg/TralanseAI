@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>TranslaAI</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>TranslaAI 🌍</h1>
+    <p>Yozing – to‘g‘rilaymiz, tarjima qilamiz, ovoz chiqaramiz</p>
+
+    <input type="text" id="userInput" placeholder="Inglizcha gap yozing..." />
+    <button onclick="processText()">✈️</button>
+
+    <div class="output">
+      <p><strong>✅ To‘g‘rilangan:</strong> <span id="fixedText"></span></p>
+      <p><strong>🇺🇿 Tarjima:</strong> <span id="translation"></span></p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
